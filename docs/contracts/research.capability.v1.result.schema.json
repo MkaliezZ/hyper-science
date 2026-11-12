@@ -1,0 +1,94 @@
+{
+  "$defs": {
+    "AssetRef": {
+      "additionalProperties": false,
+      "properties": {
+        "project_id": {
+          "pattern": "^rp-[0-9a-f]{32}$",
+          "title": "Project Id",
+          "type": "string"
+        },
+        "asset_id": {
+          "pattern": "^(problem|ra-[0-9a-f]{32})$",
+          "title": "Asset Id",
+          "type": "string"
+        },
+        "revision": {
+          "minimum": 1,
+          "title": "Revision",
+          "type": "integer"
+        },
+        "sha256": {
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "problem",
+            "record",
+            "companion_material"
+          ],
+          "title": "Kind",
+          "type": "string"
+        }
+      },
+      "required": [
+        "project_id",
+        "asset_id",
+        "revision",
+        "sha256",
+        "kind"
+      ],
+      "title": "AssetRef",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "contract_version": {
+      "const": "research.capability.v1",
+      "default": "research.capability.v1",
+      "title": "Contract Version",
+      "type": "string"
+    },
+    "request_id": {
+      "title": "Request Id",
+      "type": "string"
+    },
+    "capability": {
+      "title": "Capability",
+      "type": "string"
+    },
+    "execution_state": {
+      "const": "succeeded",
+      "title": "Execution State",
+      "type": "string"
+    },
+    "result": {
+      "additionalProperties": true,
+      "title": "Result",
+      "type": "object"
+    },
+    "refs": {
+      "items": {
+        "$ref": "#/$defs/AssetRef"
+      },
+      "title": "Refs",
+      "type": "array"
+    },
+    "checks": {
+      "additionalProperties": true,
+      "title": "Checks",
+      "type": "object"
+    }
+  },
+  "required": [
+    "request_id",
+    "capability",
+    "execution_state",
+    "result"
+  ],
+  "title": "Result",
+  "type": "object"
+}

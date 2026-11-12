@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyper-science"
+version = "0.2.0"
+description = "Broad problem-oriented research with traceable evidence, experiment design and bounded simulation"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+base = ["page.html", "app/*.json", "app/knowledge/*.txt", "app/prompts/*.txt", "app/companion/aesthetic/packs/*.json", "app/companion/aesthetic/cases/*.json", "app/research/functional/worker.py", "app/research/functional/vendor/scientific_agent_skills/*", "app/research/functional/vendor/scientific_agent_skills/*/*"]
+growth = ["static/*.html", "static/*.css", "static/*.js"]
+growth_local = ["static/*.html", "static/*.css", "static/*.js", "static/*.json"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

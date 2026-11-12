@@ -1,0 +1,13 @@
+﻿batch_id,temperature_C,aging_h,specimen_id,HV_mean,provenance
+SYN-G1-B1,160,4,SYN-S11,86,synthetic_not_measured
+SYN-G1-B2,160,4,SYN-S12,88,synthetic_not_measured
+SYN-G1-B3,160,4,SYN-S13,89,synthetic_not_measured
+SYN-G2-B1,160,8,SYN-S21,94,synthetic_not_measured
+SYN-G2-B2,160,8,SYN-S22,96,synthetic_not_measured
+SYN-G2-B3,160,8,SYN-S23,95,synthetic_not_measured
+SYN-G3-B1,180,4,SYN-S31,99,synthetic_not_measured
+SYN-G3-B2,180,4,SYN-S32,101,synthetic_not_measured
+SYN-G3-B3,180,4,SYN-S33,102,synthetic_not_measured
+SYN-G4-B1,180,8,SYN-S41,106,synthetic_not_measured
+SYN-G4-B2,180,8,SYN-S42,108,synthetic_not_measured
+SYN-G4-B3,180,8,SYN-S43,107,synthetic_not_measured

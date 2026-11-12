@@ -1,0 +1,10 @@
+liteparse==2.15.0
+numpy==2.2.6
+pandas==2.2.3
+pydoe==1.5.0
+pypdf==6.1.1
+python-dateutil==4.0.0
+pytz==2026.6
+scipy==1.18.1
+simpy==4.1.2
+tzdata==2026.6

@@ -1,0 +1,41 @@
+{
+  "repository": "https://github.com/K-Dense-AI/scientific-agent-skills",
+  "commit": "5f2bc0341354fd5590aef76a533ada1e1e5b4e62",
+  "scope": "Curated procedural adapters and unmodified helper subset, not a global installation",
+  "licenses": {
+    "default": "MIT",
+    "liteparse": "Apache-2.0"
+  },
+  "files": {
+    "LICENSE.md": "0207337e5ae2b28c15c647054fafaddafb159be533f9723825d7a5aa2610f21d",
+    "citation-management/SKILL.md": "dc79fe1e8438dcf598040615d5323360c6a7ed0b868fc3ffc82512c871a1e3ff",
+    "citation-management/validate_citations.py": "27c093594a36a877fa4a5e7891fbff88063712c1cc49468007a11e96dfa2d2f4",
+    "citation-management/_common.py": "446755e38190ecaba79d7a119b010cbff5833b13c1ed9a692c67ac13049f0268",
+    "experimental-design/doe_designs.py": "137c089bb4623603b9252500912a8bb94583df6d7a21a15921fcc716bed30c7e",
+    "experimental-design/randomization.py": "9cb46eeaa6fab75da81b2e829f6e31b86b4368742a44d37c72f5c34ab4a712e5",
+    "experimental-design/SKILL.md": "db2de0f3d29b7729776a91e923c9c83801298f5ad8e88fe44570045fbefcc248",
+    "hypothesis-generation/lint_causal_claims.py": "c79786791a4e7c6aff579395425e621a627b37c900836a89e9206fb81febddf1",
+    "hypothesis-generation/SKILL.md": "5bccec0437d96d61821ec2095e7e32b61e8634cd8c02f11f42da953121e92719",
+    "hypothesis-generation/_common.py": "fcdee995de9d3096dd2ee9ec42540c79381ca98f817a45b4a8635be642e0f4e7",
+    "liteparse/SKILL.md": "02a789c7959670cb8898e329588a41d43fa7b270c768a70c22aed05031d042a4",
+    "literature-review/search_databases.py": "152f514c5eae5bcd278d79bfe7f1b5172e87edd8be8acbc6ddd560648b6882db",
+    "literature-review/SKILL.md": "16a9e85bcdcb9bb859e1646bf836e51b22900445ba2e367d8d75be05b5a5cba8",
+    "paper-lookup/openalex_abstract.py": "f50d40f57cab512fc1c23c7ec5cca79c1bb576fb8c16423bbe3eff899d17293f",
+    "paper-lookup/SKILL.md": "fac99456ad404ff9a0d3043709b956b5d6383838ae8e8394f274a5693d8bd294",
+    "paper-lookup/_common.py": "06506856db9f1e007b45f3f9acbe78b5cb03c18b24db8935d133625c070e3271",
+    "scientific-brainstorming/session_scaffold.py": "93bd5ab56ee6851fb680be52dda30905aa24ecf649135f7230e408443aa381ba",
+    "scientific-brainstorming/SKILL.md": "06f73b71556356a7f488c369b9445d7943543a3f14d159b2168fd3f621d6f8a9",
+    "scientific-brainstorming/_common.py": "c6e044de2f19f2ce74dc10f8f08b43c4502760561e03d14da189cdfca412dd8b",
+    "scientific-critical-thinking/SKILL.md": "563af70571b7dcd6a96bf2e303bedfdcba623b4e9f082d58f04aacbc961fdae4",
+    "scientific-writing/lint_manuscript.py": "b7996bf34d46d6dafb48821d119829a2308f2f3707c8cc1629aafbf2876f0f2e",
+    "scientific-writing/SKILL.md": "511a2096bebecd8cf0f8212b9d262d37154ae1ba566eb385d93ac968682edbd1",
+    "scientific-writing/_common.py": "b56e908587664759041ae0ae928a81a5fce39da13331a0342f0f12283217b151",
+    "simpy/basic_simulation_template.py": "b0aeabeb527948389a9b73f76f44233a803fb88f7ab21ed5321eaf2c380bdab7",
+    "simpy/replication_runner.py": "83b2460a58dc31d8505f8cf5a4a8c738e4327408eccf27de2d197c8136182d59",
+    "simpy/resource_monitor.py": "c8566846daab1d00e4172b8517dff2a178041d1415af4174279059e44ba6cc91",
+    "simpy/SKILL.md": "027244a3587e70c3e2f1aed4bfb5d737cb24fdc6b2ad276302ed81c02e38a7fc",
+    "simpy/_common.py": "5d6b855734387c2323a7d78f3b0f79d9e0e424a75ddad0b59664fe7c9a4337fc",
+    "LICENSE-APACHE-2.0.txt": "c95bae1d1ce0235ecccd3560b772ec1efb97f348a79f0fbe0a634f0c2ccefe2c"
+  },
+  "license_source": "https://github.com/run-llama/liteparse/blob/python-v2.15.0/LICENSE"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "hyper-science",
+  "repository": "https://github.com/MkaliezZ/hyper-science",
+  "visibility": "public",
+  "branch": "main",
+  "date": "2026-11-12",
+  "research_workflow": "0.2",
+  "shared_host_baseline": "0.5.0",
+  "canonical_head": "2f22593966f7b0989bdc1baa82b2fc5bee9b2386",
+  "history": "Fresh repository; private source history not imported",
+  "source_integrity": "docs/source-snapshot.json",
+  "included": [
+    "research three-layer implementation",
+    "required shared BASE/companion/identity/web/MCP host",
+    "contract schemas and existing tests",
+    "curated pinned Scientific Agent Skills subset and licenses",
+    "public documentation and original synthetic materials example"
+  ],
+  "excluded": [
+    "personal/runtime data and project archives",
+    "credentials and instance/bootstrap tokens",
+    "databases, logs and raw test evidence",
+    "screenshots and unfinished recordings",
+    "private Git history and historical snapshots",
+    "dependency environments, caches, models, build outputs and binary installers",
+    "deployment scripts and private infrastructure configuration",
+    "paper full text and third-party assets without redistribution permission"
+  ],
+  "validation": "docs/VALIDATION.md",
+  "licensing": "LICENSES.md"
+}

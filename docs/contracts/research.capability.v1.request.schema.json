@@ -1,0 +1,71 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "contract_version": {
+      "const": "research.capability.v1",
+      "title": "Contract Version",
+      "type": "string"
+    },
+    "request_id": {
+      "maxLength": 128,
+      "minLength": 1,
+      "pattern": "^[A-Za-z0-9_.:-]+$",
+      "title": "Request Id",
+      "type": "string"
+    },
+    "capability": {
+      "enum": [
+        "research.describe",
+        "research.project.create",
+        "research.project.list",
+        "research.project.read",
+        "research.problem.save",
+        "research.record.save",
+        "research.asset.resolve",
+        "research.asset.history",
+        "research.companion.sources",
+        "research.companion.link"
+      ],
+      "title": "Capability",
+      "type": "string"
+    },
+    "project_id": {
+      "anyOf": [
+        {
+          "pattern": "^rp-[0-9a-f]{32}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Project Id"
+    },
+    "expected_revision": {
+      "anyOf": [
+        {
+          "minimum": 0,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Expected Revision"
+    },
+    "input": {
+      "additionalProperties": true,
+      "title": "Input",
+      "type": "object"
+    }
+  },
+  "required": [
+    "contract_version",
+    "request_id",
+    "capability"
+  ],
+  "title": "Request",
+  "type": "object"
+}
